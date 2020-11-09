@@ -108,24 +108,15 @@ const Footer = () => (
             <div className={Styles.navTitle}>Your choices</div>
             <div className={Styles.choiceLists}>
               <ul className={`${Styles.navList} ${Styles.choiceList}`}>
-                <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
-                  <Link to="/change-how-you-eat">Change how you eat</Link>
-                </li>
-                <li className={Styles.navItem}>
-                  <Link to="/change-how-you-travel">Change how you travel</Link>
-                </li>
-
-                <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
+               <li className={`${Styles.navItem} ${Styles.choiceItem}`}>
                   <Link to="/choose-renewable-energy">
-                    Choose renewable energy
+                    Vyberte si obnoviteľnú energiu
                   </Link>
                 </li>
                 <li className={Styles.navItem}>
-                  <Link to="/use-less-energy">Use less energy</Link>
+                  <Link to="/use-less-energy">Spotrebujte menej energie</Link>
                 </li>
-                <li className={Styles.navItem}>
-                  <Link to="/change-your-lifestyle">Change your lifestyle</Link>
-                </li>
+
               </ul>
             </div>
           </div>
@@ -133,11 +124,11 @@ const Footer = () => (
       </div>
       <div className={Styles.bottom}>
         <p className={Styles.disclaimer}>
-          Disclaimer: The content of this site is based on researched material
-          from around the web. We’re doing our best to provide you as much
-          accurate info as possible, but some of the data and suggestions may be
-          incorrect. If you’re unsure, we recommend doing further research on
-          your own.
+         Zrieknutie sa zodpovednosti: Obsah tejto stránky je založený na preskúmanom materiáli
+                    z celého webu. Robíme všetko pre to, aby sme vám ich poskytli čo najviac
+                    presné informácie, ale niektoré údaje a návrhy môžu byť
+                    nesprávne. Ak si nie ste istí, odporúčame vám vykonať ďalší prieskum
+                    tvoj vlastný.
         </p>
       </div>
       <div className={Styles.impactMakers}>
