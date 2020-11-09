@@ -106,19 +106,13 @@ const UseLessEnergyPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.howInner}`}>
         <div className={`${ChoiceStyles.howContent} ${Styles.howContent}`}>
           <h1 className={`${ChoiceStyles.howTitle} ${Styles.howTitle}`}>
-            How wasting energy contributes to climate breakdown
+            Aký dopad má plytvanie energiami na zhoršovanie klímy/ klimatické zmeny?
           </h1>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            Every year we waste more energy than we use. Our inefficient use of
-            this energy results in the production of a greater amount than is
-            necessary.
+           Uvedomili ste si niekedy že neefektívnym využívaním energií každoročne zvyšujeme produkciu a teda vlastne produkujeme energiu, ktorú v skutočnosti ani nepotrebujme
           </p>
           <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-            75% of our energy comes from greenhouse gas emitting sources.{" "}
-            <b>
-              By wasting so much energy we’re causing a great deal more harm to
-              the environment
-            </b>
+           ? Až 75% energie pochádza zo skleníkových plynov a plytvaním energií <b>škodíme najmä životnému prostrediu.{" "}</b>
             .
           </p>
         </div>
@@ -169,7 +163,7 @@ const UseLessEnergyPage = () => (
           className={`${ChoiceStyles.actionsContent} ${Styles.actionsContent}`}
         >
           <h1 className={`${ChoiceStyles.actionsTitle} ${Styles.actionsTitle}`}>
-            What you can do now
+          Čo môžem urobiť dnes ja?
           </h1>
         </div>
         <div className={`${ChoiceStyles.action} ${Styles.action}`}>
@@ -177,38 +171,31 @@ const UseLessEnergyPage = () => (
             className={`${ChoiceStyles.actionContent} ${Styles.actionContent}`}
           >
             <h2 className={`${ChoiceStyles.actionTitle} ${Styles.actionTitle}`}>
-              Setup your home so less energy is required
+              Pre začiatok úplne stačí nastaviť svoj domov tak, aby sme míňali menej energie.
             </h2>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              To start, one of the easiest things to do is{" "}
-              <b>improve your insulation</b>. Doing so can reduce your energy
-              needs by up to 30%! A worthy investment.
+              Prvý krok je dobré zateplenie, {" "}čo môže zvýšiť úsporu energie až o 30%.
+                          <b>vylepšiť svoju izoláciu</b>.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               Next{" "}
               <b>
-                replace older energy-zapping light bulbs with energy-saving LED
-                bulbs
+               Ďalším krokom je výmena starých žiaroviek  za LED žiarovky,
               </b>
-              . They use 5x less energy, last 25x longer and can cost 6x less
-              over 20 years.
+             ktoré využívajú 5x menej energie, vydržia 25x dlhšie a môžu vás stáť až 6x menej v horizonte 20 rokov.
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              When you need to replace an appliance, purchase an energy
-              efficient alternative.{" "}
-              <b>Check potential purchases for energy efficiency ratings</b> and
-              consider higher quality items – they last longer. Consider getting
-              rid of desktop computers, as laptops can be up to 5 times more
-              energy efficient.
+             Skúste prehodnotiť používanie pevneného počítača, ktorý ma menej výhod ako prenosný laptop, <b>ktorý je navyše 5x viac efektívny z pohľadu využitia energie.</b>{" "}
+
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Lastly don’t forget to{" "}
+              A v neposlednom rade, ak sa rozhodnete vymieňať staré spotrebiče, snažte sa siahnuť po alternatívach, ktoré využívajú menej energie. Skontrolujte si energetickú triedu vybraného spotrebiča a rozhodnite sa skôr pre kvalitnejší produkt, ktorý síce stojí viac, ale  nebudete ho musieť nahrádzať niekoľko rokov a teda z dlhodobého hľadiska pomôžete nie len svojím peňaženkám, ale najmä životnému prostrediu.{" "}
               <Link
                 to="/choose-renewable-energy#actions"
                 title="Use renewable energy"
                 aria-label={"User renewable energy"}
               >
-                power your home with renewable energy
+             
               </Link>
               .
             </p>
