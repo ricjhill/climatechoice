@@ -23,17 +23,8 @@ const ChoiceGridItems = () => {
 
   useEffect(function checkVisitedPages() {
     const visited = {
-      "change-how-you-eat":
-        localStorage.getItem("/change-how-you-eat") === "visited",
-      "change-how-you-travel":
-        localStorage.getItem("/change-how-you-travel") === "visited",
-      "choose-renewable-energy":
-        localStorage.getItem("/choose-renewable-energy") === "visited",
-      "use-less-energy": localStorage.getItem("/use-less-energy") === "visited",
-      "change-your-lifestyle":
-        localStorage.getItem("/change-your-lifestyle") === "visited",
-      "change-your-job": localStorage.getItem("/change-your-job") === "visited",
-      "pressure-those-in-power":
+     "use-less-energy": localStorage.getItem("/use-less-energy") === "visited",
+     "pressure-those-in-power":
         localStorage.getItem("/pressure-those-in-power") === "visited"
     };
 
@@ -120,16 +111,15 @@ const ChoiceGridItems = () => {
           <div className={Styles.choiceContainer}>
             <div className={Styles.choiceHeader}>
               <div className={`${Styles.choiceIcon} ${Styles.choiceSoonIcon}`}>
-                <img src={SoonIcon} alt="More guides coming soon" />
+                <img src={SoonIcon} alt="Ďalšie príručky už čoskoro" />
               </div>
             </div>
             <h2 className={`${Styles.choiceTitle} ${Styles.choiceSoonTitle}`}>
-              Watch this <br />
-              space...
+              Sleduj tento <br /> priestor...
             </h2>
             <div className={Styles.choiceMeta}>
               <span className={Styles.choiceReadStatus}>
-                More guides coming soon
+             Ďalšie príručky už čoskoro
               </span>
             </div>
           </div>

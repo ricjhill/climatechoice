@@ -22,7 +22,7 @@ function Navbar() {
     >
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.logo}>
-          <Link to="/" title="Go back home">
+          <Link to="/" title="Vráťte sa domov">
             <img src={Logo} alt="ClimateChoice" />
           </Link>
         </div>
@@ -39,13 +39,8 @@ function Navbar() {
           className={`${Styles.navList} ${navOpen ? Styles.navListOpen : ""}`}
         >
           <li className={`${Styles.navItem} ${Styles.navItemLink}`}>
-            <Link to="/contact#contribute" title="Contribute to ClimateChoice">
-              Contribute
-            </Link>
-          </li>
-          <li className={`${Styles.navItem} ${Styles.navItemLink}`}>
-            <Link to="/donate" title="Donate to climate causes">
-              Donate
+            <Link to="/contact#contribute" title="Prispieť">
+              Prispieť
             </Link>
           </li>
           <li className={`${Styles.navItem} ${Styles.navItemAction}`}>
@@ -55,7 +50,7 @@ function Navbar() {
                 ButtonStyles.btnHeader
               }`}
             >
-              View your choices
+             Zobraziť vaše možnosti
             </a>
           </li>
         </ul>
