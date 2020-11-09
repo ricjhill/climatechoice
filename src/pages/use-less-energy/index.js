@@ -18,33 +18,33 @@ import EarthyShare from "../../components/EarthyShare";
 const UseLessEnergyPage = () => (
   <Layout>
     <SEO
-      title="Use less energy to help prevent climate change"
-      description="Every year the world wastes more energy than it uses. 75% of this energy comes from greenhouse gas emitting sources like coal, oil and gas. Learn how you can help prevent earth's climate breaking down by making simple changes."
+      title="Na predchádzanie klimatickým zmenám používajte menej energie"
+      description="Až 75% energie pochádza zo skleníkových plynov a plytvaním energií škodíme najmä životnému prostrediu."
       image="https://climatechoice.co/images/Seo/energy.jpg"
       keywords={[
-        `Energy efficiency`,
-        `climate change energy waste`,
-        `prevent climate change use less energy`,
-        `climate change energy wastage`,
-        `climate change home insulation`,
-        `climate change house insulation`,
-        `prevent climate change light bulbs`,
-        `climate change light bulbs`,
-        `climate change desktop computer`,
-        `climate change hot water`,
-        `climate change taking a bath`,
-        `climate change turn lights off`,
-        `climate change home heating`,
-        `climate change become energy efficient`,
-        `climate change thermostat`,
-        `Use less energy`,
-        `ClimateChoice`,
-        `climate change`,
-        `climate breakdown`,
-        `global warming`,
-        `global warming solutions`,
-        `Climate change the facts`,
-        `climate change solutions`
+        'Energetická účinnosť',
+                'plytvanie energiou z klimatických zmien',
+                'predchádzať menšej spotrebe energie v dôsledku zmeny klímy',
+                'plytvanie energiou pri zmene podnebia',
+                'izolácia domov pre zmenu podnebia',
+                'izolácia domu pre zmenu podnebia',
+                'zabrániť žiarovkám pri zmene podnebia',
+                'žiarovky pre zmenu podnebia',
+                'stolný počítač so zmenou podnebia',
+                'zmena podnebia horúca voda',
+                'zmena podnebia vo vani',
+                'zmena podnebia vypnúť svetlá',
+                'zmena podnebia v podnebí',
+                'zmena podnebia sa stane energeticky účinnou',
+                'termostat na zmenu podnebia',
+                'Použite menej energie',
+                'ClimateChoice',
+                'zmena podnebia',
+                'klimatické zrútenie',
+                'globálne otepľovanie',
+                'riešenia globálneho otepľovania',
+                'Fakty o zmene podnebia',
+                'riešenia zmeny podnebia'
       ]}
     />
     <section className={`${ChoiceStyles.banner} ${Styles.banner}`}>
@@ -53,12 +53,10 @@ const UseLessEnergyPage = () => (
           className={`${ChoiceStyles.bannerContent} ${Styles.bannerContent}`}
         >
           <h1 className={`${ChoiceStyles.bannerTitle} ${Styles.bannerTitle}`}>
-            Use less energy to help prevent climate breakdown
+            Aký dopad má plytvanie energiami na zhoršovanie klímy/ klimatické zmeny?
           </h1>
           <p className={`${ChoiceStyles.bannerDesc} ${Styles.bannerDesc}`}>
-            Every year the world wastes more energy than it uses. <b>75%</b> of
-            this energy comes from greenhouse gas emitting sources like coal,
-            oil and gas.
+            Uvedomili ste si niekedy že neefektívnym využívaním energií každoročne zvyšujeme produkciu a teda vlastne produkujeme energiu, ktorú v skutočnosti ani nepotrebujme? Až <b>75%</b> energie pochádza zo skleníkových plynov a plytvaním energií škodíme najmä životnému prostrediu.
           </p>
 
           <div className={ChoiceStyles.bannerActions}>
@@ -68,7 +66,7 @@ const UseLessEnergyPage = () => (
               } ${ButtonStyles.btnMobile}`}
               href="#actions"
             >
-              Learn what you can do
+             Už ste sa niekedy zamysleli prečo by sme mali chcieť prestať plytvať energiami?
             </a>
             <div className={ChoiceStyles.bannerCtaSecondary}>
               <a href="#how" title="How it happens">
@@ -131,7 +129,7 @@ const UseLessEnergyPage = () => (
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.stopsInner}`}>
         <div className={`${ChoiceStyles.stopsImg} ${Styles.stopsImg}`}>
           <h1 className={`${ChoiceStyles.stopsTitle} ${Styles.stopsTitle}`}>
-            What don't we stop wasting energy?
+            ?
           </h1>
         </div>
         <div className={`${ChoiceStyles.stopsContent} ${Styles.stopsContent}`}>
@@ -146,24 +144,16 @@ const UseLessEnergyPage = () => (
               } ${Styles.stopsList}`}
             >
               <li>
-                Many of us aren’t aware of the effects of wasting so much
-                energy.
+                Niektorí z nás si ani neuvedomujú aké následky má neúsporné využívanie energií a že vôbec energiami plytvajú.
               </li>
               <li>
-                Some of the choices we could make to waste less energy require
-                an upfront cost, and even though they will save us money in the
-                long term, we still struggle to part with large lump sums.
+                Každý z nás by sa mal preto zamyslieť ako môžem ja,  ako jednotlivec prispieť k riešeniu problému.
               </li>
               <li>
-                Alternative choices can require more time and effort. More often
-                than not we aren’t willing to impact convenient aspects of our
-                lifestyle for the sake of saving a little energy.
+                Čo môžem urobiť, aby som zefektívnil každodenné využívanie energií, ako prispieť aspoň malým krôčikom k lepšej využiteľnosti.
               </li>
               <li>
-                Acting on climate change represents a trade-off between
-                short-term and long-term benefits, which is the hardest
-                trade-off for people to make. Ignoring it in the short-term is
-                easy as we don’t have to make any personal sacrifices.
+               Niektoré riešenia, sú jednoduché, niektoré najmä tie dlhodobejšie vyžadujú viac a času a najmä prvotnú investíciu, čo nás môže odrádzať, pretože aj napriek tomu, že z dlhodobého hľadiska uvidíme úsporu, niekedy je ťažké investovať do niečoho, čoho výsledky nevidíme hneď.
               </li>
             </ol>
           </div>
