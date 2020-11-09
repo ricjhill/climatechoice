@@ -34,7 +34,7 @@ const HomeIntro = () => {
                                   "požiare",
                                   "hromadné migrácie",
                                   "hladina mora stúpa",
-                                  "hromadné vymieranie“
+                                  "hromadné vymieranie"
                 ].map(text => (
                   <Typist
                     className={Styles.typist}
