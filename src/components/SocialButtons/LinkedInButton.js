@@ -31,7 +31,7 @@ export default function LinkedinButton({
 
 LinkedinButton.defaultProps = {
   url: "https://climatechoice.co/",
-  linkedinTitle: "Climate Choice",
+  linkedinTitle: "Internet  of Thrift",
   linkedinDescription:
     "Discover how changes to your diet can affect Climate Change"
 };

@@ -21,7 +21,7 @@ export default function EmailButton({ emailSubject, emailBody }) {
 }
 
 EmailButton.defaultProps = {
-  emailSubject: "Just saw this new site: Climate Choice",
+  emailSubject: "Just saw this new site: Internet  of Thift",
   emailBody: "I thought you might find this interesting"
 };
 
