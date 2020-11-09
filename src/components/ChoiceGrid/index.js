@@ -17,14 +17,10 @@ const ChoiceGrid = () => (
     >
       <div className={GlobalStyles.subpageContent}>
         <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
-          Your choices today can help prevent climate breakdown
+Vaše dnešné rozhodnutia môžu pomôcť zabrániť zlyhaniu podnebia
         </h1>
         <p>
-          It’s not too late to curb the effects of global warming before they
-          spiral out of control, causing irreversible devastation across our
-          planet. But <b>we need to act now</b>. We've created straight-forward
-          guides on the choices you can make today, to take action and help
-          prevent earth’s climate breaking down:
+          Nie je neskoro potlačiť účinky globálneho otepľovania skôr, ako sa vymknú spod kontroly a spôsobia nezvratnú devastáciu na celej našej planéte. <b>Musíme však konať hneď</b>. Vytvorili sme jednoduchých sprievodcov o možnostiach, ktoré môžete dnes urobiť, aby sme podnikli kroky a pomohli zabrániť narušeniu klímy Zeme:
         </p>
       </div>
     </div>
