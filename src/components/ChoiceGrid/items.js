@@ -67,73 +67,7 @@ const ChoiceGridItems = () => {
   return (
     <div className={Styles.choiceGridWrapper}>
       <ul className={Styles.choiceGrid}>
-        <li className={`${Styles.choiceGridItem} ${Styles.choiceEat}`}>
-          <Link className={Styles.choiceContainer} to="/change-how-you-eat">
-            <div className={Styles.choiceHeader}>
-              <div className={Styles.choiceIcon}>
-                <img src={EatIcon} alt="Cow" />
-              </div>
-
-              <img
-                className={Styles.choiceChevron}
-                src={Chevron}
-                alt="Chevron"
-              />
-            </div>
-            <h2 className={Styles.choiceTitle}>
-              Change how <br />
-              you eat
-            </h2>
-            <div className={Styles.choiceMeta}>
-              {renderReadStatus("change-how-you-eat")}
-            </div>
-          </Link>
-        </li>
-        <li className={`${Styles.choiceGridItem} ${Styles.choiceEat}`}>
-          <Link className={Styles.choiceContainer} to="/change-how-you-travel">
-            <div className={Styles.choiceHeader}>
-              <div className={Styles.choiceIcon}>
-                <img src={TravelIcon} alt="Car" />
-              </div>
-
-              <img
-                className={Styles.choiceChevron}
-                src={Chevron}
-                alt="Chevron"
-              />
-            </div>
-            <h2 className={Styles.choiceTitle}>
-              Change how <br />
-              you travel
-            </h2>
-            <div className={Styles.choiceMeta}>
-              {renderReadStatus("change-how-you-travel")}
-            </div>
-          </Link>
-        </li>
-        <li className={`${Styles.choiceGridItem} ${Styles.choiceRenewable}`}>
-          <Link
-            className={Styles.choiceContainer}
-            to="/choose-renewable-energy"
-          >
-            <div className={Styles.choiceHeader}>
-              <div className={Styles.choiceIcon}>
-                <img src={RenewableIcon} alt="Sun" />
-              </div>
-
-              <img
-                className={Styles.choiceChevron}
-                src={Chevron}
-                alt="Chevron"
-              />
-            </div>
-            <h2 className={Styles.choiceTitle}>Choose renewable energy</h2>
-            <div className={Styles.choiceMeta}>
-              {renderReadStatus("choose-renewable-energy")}
-            </div>
-          </Link>
-        </li>
-        <li className={`${Styles.choiceGridItem} ${Styles.choiceEat}`}>
+       <li className={`${Styles.choiceGridItem} ${Styles.choiceEat}`}>
           <Link className={Styles.choiceContainer} to="/use-less-energy">
             <div className={Styles.choiceHeader}>
               <div className={Styles.choiceIcon}>
@@ -155,50 +89,8 @@ const ChoiceGridItems = () => {
             </div>
           </Link>
         </li>
-        <li className={`${Styles.choiceGridItem} ${Styles.choiceRenewable}`}>
-          <Link className={Styles.choiceContainer} to="/change-your-lifestyle">
-            <div className={Styles.choiceHeader}>
-              <div className={Styles.choiceIcon}>
-                <img src={LifestyleIcon} alt="Recycle" />
-              </div>
 
-              <img
-                className={Styles.choiceChevron}
-                src={Chevron}
-                alt="Chevron"
-              />
-            </div>
-            <h2 className={Styles.choiceTitle}>
-              Change your <br />
-              lifestyle
-            </h2>
-            <div className={Styles.choiceMeta}>
-              {renderReadStatus("change-your-lifestyle")}
-            </div>
-          </Link>
-        </li>
-        <li className={`${Styles.choiceGridItem} ${Styles.choiceJob}`}>
-          <Link className={Styles.choiceContainer} to="/change-your-job">
-            <div className={Styles.choiceHeader}>
-              <div className={Styles.choiceIcon}>
-                <img src={JobIcon} alt="Change your job" />
-              </div>
 
-              <img
-                className={Styles.choiceChevron}
-                src={Chevron}
-                alt="Chevron"
-              />
-            </div>
-            <h2 className={Styles.choiceTitle}>
-              Change your <br />
-              job
-            </h2>
-            <div className={Styles.choiceMeta}>
-              {renderReadStatus("change-your-job")}
-            </div>
-          </Link>
-        </li>
         <li className={`${Styles.choiceGridItem} ${Styles.choicePower}`}>
           <Link
             className={Styles.choiceContainer}

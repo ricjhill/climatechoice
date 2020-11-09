@@ -9,8 +9,8 @@ export default function Banner() {
         <span role="img" aria-label="Earth">
           🌎
         </span>{" "}
-        Please share this page to help others make better choices to reduce
-        Climate Breakdown
+        Zdieľajte túto stránku, aby ste pomohli ostatným pri lepšom rozhodovaní o znížení
+                 Členenie podnebia
       </div>
     </a>
   );
