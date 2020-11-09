@@ -37,8 +37,8 @@ function ShareSocialCta({
             <img src={EarthIcon} alt="Earthy" className={styles.earthIcon} />
           </div>
           <div className={styles.title}>
-            <span className={styles.titleShare}>Spread the word</span>
-            <span className={styles.titleSave}>to save the world</span>
+            <span className={styles.titleShare}>Šírte informácie</span>
+            <span className={styles.titleSave}>o záchrane sveta</span>
           </div>
           <p className={styles.copy}>{ctaCopy}</p>
         </div>
@@ -46,11 +46,8 @@ function ShareSocialCta({
         {/* social block  / right col */}
         <div className={styles.socialBlock}>
           <div className={styles.socialBlockContent}>
-            <h3 className={styles.subTitle}>Want to help? Great!</h3>
-            <p>
-              Send this page to your friends, family and followers via our handy
-              pre written message.
-            </p>
+            <h3 className={styles.subTitle}>Chceš pomôcť? Skvelé!</h3>
+            <p>Pošlite túto stránku svojim priateľom, rodine a nasledovníkom prostredníctvom našej praktickej vopred napísanej správy.</p>
 
             <div className={styles.socialContainer}>
               <div className={styles.socialButton}>
