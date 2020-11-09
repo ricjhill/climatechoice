@@ -22,19 +22,19 @@ const HomeIntro = () => {
       <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
         <div className={Styles.content}>
           <h1 className={Styles.title}>
-            We must cut global emissions in half by 2030 or face{" "}
+            Musíme znížiť globálne emisie na polovicu do roku 2030 alebo čeliť hromadnému vymieraniu{" "}
             {!mounted ? (
-              <span className={Styles.titleEmphasis}>mass extinctions</span>
+              <span className={Styles.titleEmphasis}>čeliť hromadnému vymieraniu</span>
             ) : (
               <TypistLoop interval={0}>
                 {[
-                  "extreme weather",
-                  "water shortages",
-                  "crop failures",
-                  "wildfires",
-                  "mass migrations",
-                  "sea level rises",
-                  "mass extinctions"
+               "extrémne počasie",
+                                  "nedostatok vody",
+                                  "neúroda",
+                                  "požiare",
+                                  "hromadné migrácie",
+                                  "hladina mora stúpa",
+                                  "hromadné vymieranie“
                 ].map(text => (
                   <Typist
                     className={Styles.typist}
@@ -56,7 +56,7 @@ const HomeIntro = () => {
               } ${ButtonStyles.btnMobile}`}
               href="#your-choices"
             >
-              Learn how you can help
+              Zistite, ako môžete pomôcť
             </a>
             <ConvincedButton />
           </div>

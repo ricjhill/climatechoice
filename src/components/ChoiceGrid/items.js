@@ -246,8 +246,8 @@ const ChoiceGridItems = () => {
       <div className={Styles.subscribe}>
         <div className={Styles.subscribeForm}>
           <h3 className={Styles.subscribeTitle}>
-            Get notified when we add more choice guides
-          </h3>
+ Dostanete upozornenie, keď pridáme ďalších sprievodcov
+           </h3>
           <form className={FormStyles.fieldContainer} onSubmit={handleSubmit}>
             <input
               type="email"

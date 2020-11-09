@@ -21,8 +21,8 @@ export default function EmailButton({ emailSubject, emailBody }) {
 }
 
 EmailButton.defaultProps = {
-  emailSubject: "Just saw this new site: Internet  of Thift",
-  emailBody: "I thought you might find this interesting"
+  emailSubject: "Práve som videl tento nový web: Internete Setrnosti",
+  emailBody: "Myslel som, že by ťa to mohlo zaujímať"
 };
 
 EmailButton.propTypes = {

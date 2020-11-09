@@ -21,7 +21,7 @@ export default function WhatsappButton({ url, whatsappTitle, currentUrl }) {
 }
 
 WhatsappButton.defaultProps = {
-  url: "https://climatechoice.co/",
+  url: "https://InterneteSetrnosti.com/",
   whatsappTitle: "check out this new site, Internet  of Thrift"
 };
 

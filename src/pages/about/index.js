@@ -8,9 +8,9 @@ import FooterCta from "../../components/FooterCta";
 const AboutPage = () => (
   <Layout>
     <SEO
-      title="About ClimateChoice"
-      description="ClimateChoice is a non-profit volunteer project from Steven Hylands, Rachel Franklin, Paul McBride that launched in May 2019. The project was developed with the help of the Impact Makers group — a community of tech people who want to have a positive impact by helping prevent earth’s climate breaking down."
-      keywords={[`About Climate Choice`, `ClimateChoice`]}
+      title="About  Internete Setrnosti"
+      description=""
+      keywords={[`About Internete Setrnosti`, `InterneteSetrnosti`]}
     />
     <section
       className={`${GlobalStyles.container} ${GlobalStyles.subpageContainer}`}
@@ -18,7 +18,7 @@ const AboutPage = () => (
       <div className={`${GlobalStyles.inner} ${GlobalStyles.subpageInner}`}>
         <div className={GlobalStyles.subpageContent}>
           <h1 className={`${GlobalStyles.title} ${GlobalStyles.subpageTitle}`}>
-            About ClimateChoice
+             Internete Setrnosti je forked od ClimateChoice
           </h1>
 
           <p>
@@ -77,7 +77,7 @@ const AboutPage = () => (
             .
           </p>
           <br />
-          <h2>Why we decided to make ClimateChoice</h2>
+          <h2>Why we decided to make  Internete Setrnosti</h2>
           <p>
             <b>
               Our planet's climate is breaking down and we aren’t doing enough
