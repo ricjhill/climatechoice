@@ -40,7 +40,7 @@ const ChoiceGridItems = () => {
           }`}
         >
           <img src={Tick} alt="Read it" />
-          You've read this
+       Toto ste už čítali
         </span>
       );
     }
@@ -72,8 +72,8 @@ const ChoiceGridItems = () => {
               />
             </div>
             <h2 className={Styles.choiceTitle}>
-              Use less <br />
-              energy
+              Spotrebujte menej<br />
+             energie
             </h2>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("use-less-energy")}
@@ -99,8 +99,7 @@ const ChoiceGridItems = () => {
               />
             </div>
             <h2 className={Styles.choiceTitle}>
-              Pressure those <br />
-              in power
+              Tlak na mocných
             </h2>
             <div className={Styles.choiceMeta}>
               {renderReadStatus("pressure-those-in-power")}
