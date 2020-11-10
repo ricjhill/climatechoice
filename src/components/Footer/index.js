@@ -39,11 +39,8 @@ const Footer = () => (
             <li className={Styles.socialLink}>
               <OutboundLink
                 href="https://twitter.com/climatechoice"
-                title="Follow us on Twitter"
-              >
+                title="Follow us on Twitter">
                 <TwitterIcon />
-              </OutboundLink>
-            </li>
               </OutboundLink>
             </li>
           </ul>
