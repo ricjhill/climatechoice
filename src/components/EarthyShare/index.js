@@ -40,7 +40,7 @@ const EarthyShare = () => {
           <span role="img" aria-label="wave">
             👋
           </span>{" "}
-          Share this page
+          Zdieľajte túto stránku
         </span>
 
         <Link

@@ -60,7 +60,7 @@ const ChangeHowYouEatPage = () => (
               Learn what you can do
             </a>
             <div className={ChoiceStyles.bannerCtaSecondary}>
-              <a href="#how">Discover how it happens</a>
+              <a href="#how">Objavte, ako sa to deje</a>
             </div>
           </div>
         </div>

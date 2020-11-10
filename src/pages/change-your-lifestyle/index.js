@@ -71,7 +71,7 @@ const ChangeYourLifestylePage = () => (
             </a>
             <div className={ChoiceStyles.bannerCtaSecondary}>
               <a href="#how" title="How it happens">
-                Discover how it happens
+                Objavte, ako sa to deje
               </a>
             </div>
           </div>
