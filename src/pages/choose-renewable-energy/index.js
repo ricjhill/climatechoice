@@ -87,7 +87,7 @@ const ChooseRenewablePage = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Short on time?{" "}
+        Krátko na čas?{" "}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"

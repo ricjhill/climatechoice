@@ -87,7 +87,7 @@ const PressureThoseInPower = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Short on time?{" "}
+        Krátko na čas?{" "}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"
@@ -243,7 +243,7 @@ const PressureThoseInPower = () => (
                   Styles.actionAsideTitle
                 }`}
               >
-                Need help pressuring for change?
+                Potrebujete pomoc s úsporou peňazí a CO2? pressuring for change?
               </h3>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${

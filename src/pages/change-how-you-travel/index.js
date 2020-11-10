@@ -84,7 +84,7 @@ const ChangeHowYouTravelPage = () => (
     </section>
     <section className={`${ChoiceStyles.cba} ${Styles.cba}`}>
       <div className={`${GlobalStyles.inner} ${ChoiceStyles.cbaInner}`}>
-        Short on time?{" "}
+        Krátko na čas?{" "}
         <a
           className={ChoiceStyles.cbaAction}
           href="#tldr"
@@ -271,7 +271,7 @@ const ChangeHowYouTravelPage = () => (
                   Styles.actionAsideTitle
                 }`}
               >
-                Need help changing?
+                Potrebujete pomoc s úsporou peňazí a CO2? changing?
               </h3>
               <ul
                 className={`${ChoiceStyles.actionAsideList} ${
