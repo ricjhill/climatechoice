@@ -251,9 +251,7 @@ const UseLessEnergyPage = () => (
               Use less hot water
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Heating water uses energy. Try taking short showers instead of
-              filling the bathtub. Lower your washing machine temperature. When
-              your clothes are washed hang dry them instead of using a dryer.
+             Je celá rada riešení, s ktorými môžeme začať už dnes, využívanie obnoviteľných zdrojov energie v domácnosti, snažiť sa neplytvať energiami, používať menej horúcej vody, pretože aj keď si to možno neuvedomujeme na zohriatie vody je tiež potrebná energia, sprchovanie sa je efektívnejšie, ako každodenná plná vaňa vody, pranie na nižších stupňoch, či menej časte využívanie sušičky je tiež spôsob ako prispieť k nižšiemu využitiu energie.
             </p>
 
             <h3
@@ -265,20 +263,18 @@ const UseLessEnergyPage = () => (
             </h3>
 
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Don’t leave your appliances on standby, switch them off. When you
-              leave a room always make sure you turn any lights off too.
+             Vypínanie svetiel, keď nie sme v miestnosti, či spotrebičov ktoré momentálne nevyužívame by mala byť samozrejmosť.
             </p>
             <h3
               className={`${ChoiceStyles.actionPointTitle} ${
                 Styles.actionPointTitle
               }`}
             >
-              Switch off your heating
+              Vypnutie kúrenia ak odchádzame na dlhší čas, či správne nastavenie termostatu a radiátorov keď sa nachádzame v domácnosti.
             </h3>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
-              Adjust your thermostat and radiators. Only choose to heat your
-              home when absolutely necessary. Warmer clothes or a blanket can
-              often do the same job.
+              Pamätajte nemusíme miestnosti prekurovať aj zo zdravotného hľadiska je lepšie zvoliť teplejšie oblečenie, ako sedieť v prekúrenej miestnosti.
+
             </p>
             <p className={`${ChoiceStyles.paragraph} ${Styles.paragraph}`}>
               <OutboundLink
