@@ -17,8 +17,6 @@ const SuccessBanner = () => (
         >
           @climatechoice
         </OutboundLink>{" "}
-        22 / 5000
-        Translation results
         a pridáme to sem!
       </p>
     </div>
