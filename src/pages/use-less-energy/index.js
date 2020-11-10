@@ -94,7 +94,7 @@ const UseLessEnergyPage = () => (
           href="#tldr"
           title="Read a summary"
         >
-          Get a quick summary
+          Získajte rýchle zhrnutie
         </a>
       </div>
     </section>
