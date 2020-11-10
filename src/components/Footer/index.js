@@ -44,28 +44,6 @@ const Footer = () => (
                 <TwitterIcon />
               </OutboundLink>
             </li>
-            <li className={Styles.socialLink}>
-              <OutboundLink
-                href="https://www.facebook.com/climatechoice"
-                title="Like us on Facebook"
-              >
-                <FacebookIcon />
-              </OutboundLink>
-            </li>
-            <li className={Styles.socialLink}>
-              <OutboundLink
-                href="https://instagram.com/yourclimatechoice"
-                title="Follow us on Instagram"
-              >
-                <InstagramIcon />
-              </OutboundLink>
-            </li>
-            <li className={Styles.socialLink}>
-              <OutboundLink
-                href="https://www.linkedin.com/company/climatechoice"
-                title="Follow us on LinkedIn"
-              >
-                <LinkedinIcon />
               </OutboundLink>
             </li>
           </ul>
@@ -81,25 +59,18 @@ const Footer = () => (
               </li>
               <li className={Styles.navItem}>
                 <Link
-                  to="/contact#contribute"
-                  title="Contribute to ClimateChoice"
-                >
-                  Contribute
+                  to="/contact#Prispieť"
+                  title="Prispieť"
+                >Prispieť</Link>
+              </li>
+              <li className={Styles.navItem}>
+                <Link to="/about" title="O nas">
+                  O nas
                 </Link>
               </li>
               <li className={Styles.navItem}>
-                <Link to="donate" title="Donate to ClimateChoice">
-                  Donate
-                </Link>
-              </li>
-              <li className={Styles.navItem}>
-                <Link to="/about" title="About ClimateChoice">
-                  About
-                </Link>
-              </li>
-              <li className={Styles.navItem}>
-                <Link to="/contact" title="Get in touch">
-                  Contact us
+                <Link to="/contact" title="kontaktovať">
+                  Kontaktovať
                 </Link>
               </li>
             </ul>
@@ -133,7 +104,7 @@ const Footer = () => (
       </div>
       <div className={Styles.impactMakers}>
         <h1 className={Styles.impactMakersTitle}>
-          An Impact Makers project from:
+          Forked from Climate Choice An Impact Makers project from:
         </h1>
         <ul className={Styles.impactMakersCreators}>
           <li className={Styles.impactMakersCreator}>
