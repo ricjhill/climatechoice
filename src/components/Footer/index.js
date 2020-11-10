@@ -24,7 +24,7 @@ const Footer = () => (
             <img src={Logo} alt="ClimateChoice" />
           </Link>
           <p className={Styles.description}>
-            Learn how you can help prevent earth’s climate breaking down.
+            Naučte sa, ako môžete zabrániť narušeniu klímy Zeme.
           </p>
           {/* <span className={Styles.social}>
             Follow us

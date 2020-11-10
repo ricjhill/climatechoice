@@ -15,14 +15,14 @@ const homePageConfig = {
       Takto môžu robiť informované rozhodnutia.
     </>
   ),
-  emailSubject: "Join me in helping prevent climate change!",
+  emailSubject: "Pripojte sa ku mne pri pomáhaní predchádzať klimatickým zmenám!",
   emailBody:
-    "Hey! The choices we make today can help prevent earth’s climate breaking down 🌎🔥 Check out this site to learn how you can make simple changes to reduce your carbon footprint 👣 https://climatechoice.co/",
+"Hej! Dnešné rozhodnutia môžu pomôcť zabrániť narušeniu zemského podnebia 🌎🔥 Na tejto stránke sa dozviete, ako môžete vykonať jednoduché zmeny na zníženie svojej uhlíkovej stopy 👣 https://climatechoice.co/",
   linkedinTitle: "ClimateChoice",
   linkedinDescription:
-    "Learn how you can help prevent earth’s climate breaking down.",
+    "Naučte sa, ako môžete zabrániť narušeniu klímy Zeme...",
   facebookHashtag: "#climatechange",
-  twitterTitle: "Learn how you can help prevent earth’s climate breaking down",
+  twitterTitle: "Naučte sa, ako môžete zabrániť narušeniu klímy Zeme.",
   twitterAccount: "climatechoice",
   twitterHashtags: ["climatechange", "climatebreakdown"],
   socialTitle: "Want to help? Great!",
