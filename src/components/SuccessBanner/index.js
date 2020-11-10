@@ -6,18 +6,20 @@ import Styles from "./Styles.module.scss";
 const SuccessBanner = () => (
   <section className={Styles.container}>
     <div className={`${GlobalStyles.inner} ${Styles.inner}`}>
-      <h1 className={Styles.title}>
-        Has ClimateChoice helped you make changes?
-      </h1>
+      <h2 className={Styles.title}>
+       Pomohla vám aplikácia ClimateChoice so zmenami?
+      </h2>
       <p className={Styles.text}>
-        Then tweet your success story{" "}
+        Potom napíšte tweet vášho úspešného príbehu{" "}
         <OutboundLink
           href="https://twitter.com/climatechoice"
           title="Tweet @climatechoice"
         >
           @climatechoice
         </OutboundLink>{" "}
-        and we'll add it here!
+        22 / 5000
+        Translation results
+        a pridáme to sem!
       </p>
     </div>
   </section>

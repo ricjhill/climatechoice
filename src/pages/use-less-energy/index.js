@@ -195,7 +195,7 @@ const UseLessEnergyPage = () => (
                 title="Use renewable energy"
                 aria-label={"User renewable energy"}
               >
-             
+
               </Link>
               .
             </p>
